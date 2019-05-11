@@ -36,13 +36,16 @@ form {
 form input#search {
     width : calc(100% - 110px);
     line-height      : 40px;
-	font-size        : 17px;
+	font-size        : 14px;
 	padding          : 0 0px 0 10px ;
 	border           : 0 none;
 	background-color : #ece6da;
 	color            : #666;
-	border-radius    : 3px;
-    
+    border-radius    : 3px; 
+    margin-right: 0;
+    display: inline-block;
+    font-weight: lighter;
+
 }
 
 form input#search:focus {
@@ -51,12 +54,24 @@ form input#search:focus {
 	color: #eee;
 }
 
+form input[type=submit] {
+    background-color: rgb(1, 23, 57);
+    color : white;
+    border : 0 none;
+    font-size: 13px;
+    line-height: 40px;
+    padding: 0 20px;
+    font-weight: lighter;
+    display: inline-block
+}
+
 section#results {
     width : 600px;
     margin : 0 auto;
     border : 1px solid #aaa;
-    background-color: rgba(230, 230, 230, 0.6);
+    background-color: rgba(230, 230, 230, 0.9);
     padding: 30px;
+    display: none
 }
 
 section#results .certificate {

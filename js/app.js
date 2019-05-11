@@ -12,6 +12,7 @@ document.querySelector('form').addEventListener('submit', function(e) {
     if(studentInfo != undefined) {
         const renderResult = () => {
             resultContainer.innerHTML = ""
+            resultContainer.style.display = "block"
             studentInfo.forEach(item => {
                 let certificate = document.createElement('div')
                 let name = document.createElement('span')

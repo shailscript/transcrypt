@@ -1,4 +1,4 @@
-let credentials = [
+let studentsInfo = [
     {
       "first_name": "Patten",
       "last_name": "Patley",
@@ -10002,5 +10002,5 @@ let credentials = [
   ]
 
 export default {
-    credentials
+    studentsInfo
 }
